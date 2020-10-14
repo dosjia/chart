@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T05:27:08.373Z" agent="5.0 (Windows)" etag="V55pOnu5j2xbpWotJ9GL" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T05:28:03.001Z" agent="5.0 (Windows)" etag="bFAJSsOFEVXi5TvDiWXP" version="13.7.9" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
       <root>
@@ -27,22 +27,22 @@
         <mxCell id="ibMNdap8D_2vEx1ZPLvZ-15" value="Shiro" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.citrix.firewall;" vertex="1" parent="1">
           <mxGeometry x="493.93999999999994" y="140" width="48.39" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-16" value="Environment Setup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-16" value="Environment Setup" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="458.13" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-17" value="Application Redeployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-17" value="Application Redeployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-18" value="Cost Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-18" value="Cost Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="648.13" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-19" value="Privilege Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-19" value="Privilege Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="270" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-24" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-24" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="647.25" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-25" value="Audit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-25" value="Audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="458.13" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ibMNdap8D_2vEx1ZPLvZ-20" value="Hybrid Cloud" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
