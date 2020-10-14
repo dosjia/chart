@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T05:23:20.689Z" agent="5.0 (Windows)" etag="ydrHi0d96liG2OluhBT9" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T05:23:58.383Z" agent="5.0 (Windows)" etag="ce6IAzJjuF8hwqe4pqoF" version="13.7.9" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="ibMNdap8D_2vEx1ZPLvZ-11" value="HW Cloud" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=#10739e;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;fillColor=#b1ddf0;" vertex="1" parent="1">
           <mxGeometry x="538.77" y="604" width="95" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-12" value="Private Cloud" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" vertex="1" parent="1">
+        <mxCell id="ibMNdap8D_2vEx1ZPLvZ-12" value="Private Cloud" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=#d79b00;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;gradientColor=#ffa500;fillColor=#ffcd28;" vertex="1" parent="1">
           <mxGeometry x="685.6400000000001" y="604" width="95" height="62" as="geometry" />
         </mxCell>
       </root>
