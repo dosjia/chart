@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T10:25:27.795Z" agent="5.0 (Windows)" etag="1FNooB1seLf1Nlj4YmqJ" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T10:57:03.465Z" agent="5.0 (Windows)" etag="FTLDEaDNuszlFrZmPI_E" version="13.8.1" type="github">
   <diagram id="BMevfkKDMSV5yCwqt1LY" name="Page-1">
     <mxGraphModel dx="1094" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -77,6 +77,86 @@
         </mxCell>
         <mxCell id="CKKBYsWl8Wb_sM6-ShsY-6" value="传入名称" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="370" y="180" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-7" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="710" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-7" target="CKKBYsWl8Wb_sM6-ShsY-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-8" target="CKKBYsWl8Wb_sM6-ShsY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-8" value="从云下harbor抽取镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-10" target="CKKBYsWl8Wb_sM6-ShsY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-10" value="推送镜像到云上ECR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-12" target="CKKBYsWl8Wb_sM6-ShsY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-12" value="抽取参数（从Apollo）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-14" target="CKKBYsWl8Wb_sM6-ShsY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-14" value="运行Helm" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="710" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-19" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="945" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-19" target="CKKBYsWl8Wb_sM6-ShsY-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-22" target="CKKBYsWl8Wb_sM6-ShsY-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-22" value="从云下harbor抽取镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-24" target="CKKBYsWl8Wb_sM6-ShsY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-24" value="推送镜像到云上ECR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-26" target="CKKBYsWl8Wb_sM6-ShsY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-26" value="抽取参数（从Apollo）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-28" target="CKKBYsWl8Wb_sM6-ShsY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-28" value="运行Helm" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-29" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="945" y="667" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-30" value="注入Skywalking" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="218" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
