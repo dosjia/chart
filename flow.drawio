@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T10:57:03.465Z" agent="5.0 (Windows)" etag="FTLDEaDNuszlFrZmPI_E" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T10:58:17.590Z" agent="5.0 (Windows)" etag="zqNFzp7_D0qzheDcFf1L" version="13.8.1" type="github">
   <diagram id="BMevfkKDMSV5yCwqt1LY" name="Page-1">
     <mxGraphModel dx="1094" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -148,11 +148,15 @@
           <mxGeometry x="900" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKKBYsWl8Wb_sM6-ShsY-29" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="945" y="667" width="30" height="30" as="geometry" />
+          <mxGeometry x="945" y="653" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-30">
+        <mxCell id="CKKBYsWl8Wb_sM6-ShsY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CKKBYsWl8Wb_sM6-ShsY-30" target="CKKBYsWl8Wb_sM6-ShsY-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="290" as="targetPoint" />
+            <mxPoint x="1060" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="315" />
+              <mxPoint x="960" y="315" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CKKBYsWl8Wb_sM6-ShsY-30" value="注入Skywalking" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
