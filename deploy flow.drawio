@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T02:14:02.234Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="13.9.2" etag="TkpflbkX2IWH92VmqqqE" type="github"><diagram id="6zT8-Kip1oH7LkJC3_hO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-06T02:46:25.860Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3yIqMEfQF1uoqavrXnvi" version="13.9.2" type="github">
+  <diagram id="6zT8-Kip1oH7LkJC3_hO" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YM0_yZhmld9y53GlLSz2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-1" target="YM0_yZhmld9y53GlLSz2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-1" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-6" target="YM0_yZhmld9y53GlLSz2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-6" value="Java调用GetImageForK8s.py部署应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-8" target="YM0_yZhmld9y53GlLSz2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-8" value="GetImageForK8s.py使用docker命令从local Harbor拉取镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-9" target="YM0_yZhmld9y53GlLSz2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-9" value="GetImageForK8s.py使用docker命令向cloud Harbor推送镜像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-11" target="YM0_yZhmld9y53GlLSz2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-11" value="GetImageForK8s.py调用deployWithHelm.py部署应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-12" target="YM0_yZhmld9y53GlLSz2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-12" value="Java调用config_network.py配置网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-13" target="YM0_yZhmld9y53GlLSz2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-13" value="config_network.py远程调用DNS server脚本配置DNS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-14" target="YM0_yZhmld9y53GlLSz2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-14" target="YM0_yZhmld9y53GlLSz2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-14" value="是否内网域名？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-15" target="YM0_yZhmld9y53GlLSz2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-15" value="&lt;span&gt;config_network.py远程调用Nginx server脚本配置网络&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-16" target="YM0_yZhmld9y53GlLSz2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-16" value="&lt;span&gt;config_network.py使用aws python client配置route53服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-28" target="YM0_yZhmld9y53GlLSz2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-28" value="deployWithHelm.py使用远程scp的方式运行helm命令部署应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YM0_yZhmld9y53GlLSz2-30" target="YM0_yZhmld9y53GlLSz2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YM0_yZhmld9y53GlLSz2-30" value="&lt;span&gt;java远程调用Nginx服务器脚本重启Nginx服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
