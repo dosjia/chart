@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T02:35:53.997Z" agent="5.0 (Windows)" etag="p-ghwevdaAOeuCda1aDC" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T02:36:47.884Z" agent="5.0 (Windows)" etag="vNsB3gC13Hl-2GeHWTWJ" version="14.0.1" type="github">
   <diagram id="itAkbLC7WfVamD4yO5cT" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -43,14 +43,24 @@
         <mxCell id="un2wKoPjUNq5MuE0AR7B-15" value="VM or K8s？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="288" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-16" target="un2wKoPjUNq5MuE0AR7B-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-16" target="un2wKoPjUNq5MuE0AR7B-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="470" />
+              <mxPoint x="1380" y="328" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="un2wKoPjUNq5MuE0AR7B-16" value="Invoke Jenkins Job， Generate Jar file and upload to nexus" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-18" target="un2wKoPjUNq5MuE0AR7B-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-18" target="un2wKoPjUNq5MuE0AR7B-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="328" />
+              <mxPoint x="1330" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="un2wKoPjUNq5MuE0AR7B-18" value="Invoke Jenkins Job, generate Image and upload to harbor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="298" width="120" height="60" as="geometry" />
