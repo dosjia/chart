@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T02:52:42.964Z" agent="5.0 (Windows)" etag="4H7IglyMDL6hsCWnIwBs" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T10:40:31.541Z" agent="5.0 (Windows)" etag="DDCec4D_xMir869tRpTi" version="14.0.1" type="github">
   <diagram id="itAkbLC7WfVamD4yO5cT" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-2" target="un2wKoPjUNq5MuE0AR7B-30">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-2" target="un2wKoPjUNq5MuE0AR7B-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="220" y="175" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-30" target="un2wKoPjUNq5MuE0AR7B-6">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="un2wKoPjUNq5MuE0AR7B-30" target="un2wKoPjUNq5MuE0AR7B-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-11" value="All in one" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-6" target="un2wKoPjUNq5MuE0AR7B-10">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-11" value="All in one" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="un2wKoPjUNq5MuE0AR7B-6" target="un2wKoPjUNq5MuE0AR7B-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-14" value="Old Jenkins" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-6" target="un2wKoPjUNq5MuE0AR7B-15">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-14" value="Old Jenkins" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-6" target="un2wKoPjUNq5MuE0AR7B-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-6" value="Which Jenkins version？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-6" value="Which Jenkins version？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-10" target="un2wKoPjUNq5MuE0AR7B-20">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="un2wKoPjUNq5MuE0AR7B-10" target="un2wKoPjUNq5MuE0AR7B-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-10" value="Invoke Jenkins Job, generate Image and upload to harbor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-10" value="Invoke Jenkins Job, generate Image and upload to harbor" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-17" value="VM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-15" target="un2wKoPjUNq5MuE0AR7B-16">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-17" value="VM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-15" target="un2wKoPjUNq5MuE0AR7B-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-19" value="K8s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-15" target="un2wKoPjUNq5MuE0AR7B-18">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-19" value="K8s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-15" target="un2wKoPjUNq5MuE0AR7B-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-15" value="VM or K8s？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-15" value="VM or K8s？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="288" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-16" target="un2wKoPjUNq5MuE0AR7B-25">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-16" target="un2wKoPjUNq5MuE0AR7B-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1380" y="470" />
@@ -49,10 +49,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-16" value="Invoke Jenkins Job， Generate Jar file and upload to nexus" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-16" value="Invoke Jenkins Job， build application" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-18" target="un2wKoPjUNq5MuE0AR7B-20">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-18" target="un2wKoPjUNq5MuE0AR7B-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1330" y="328" />
@@ -60,22 +60,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-18" value="Invoke Jenkins Job, generate Image and upload to harbor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-18" value="Invoke Jenkins Job, generate Image and upload to harbor" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="298" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-20" target="un2wKoPjUNq5MuE0AR7B-23">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="un2wKoPjUNq5MuE0AR7B-20" target="un2wKoPjUNq5MuE0AR7B-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-20" value="pull image from local harbor and push to AWS ECR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-20" value="pull image from local harbor and push to AWS ECR" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-23" target="un2wKoPjUNq5MuE0AR7B-27">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-23" target="un2wKoPjUNq5MuE0AR7B-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-23" value="invoke helm command and deploy application to EKS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-23" value="invoke helm command and deploy application to EKS" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1660" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="un2wKoPjUNq5MuE0AR7B-25" target="un2wKoPjUNq5MuE0AR7B-27">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="un2wKoPjUNq5MuE0AR7B-25" target="un2wKoPjUNq5MuE0AR7B-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1820" y="328" />
@@ -83,13 +83,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-25" value="upload jar file to EC2 and restart the service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-25" value="&lt;div&gt;Invoke Jenkins Job, deploy application&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="298" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="1860" y="175" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="un2wKoPjUNq5MuE0AR7B-30" value="Build Application" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="un2wKoPjUNq5MuE0AR7B-30" value="Build Application" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
