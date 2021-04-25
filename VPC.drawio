@@ -1,4 +1,4 @@
-<mxfile modified="2021-04-25T05:12:12.514Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="Cvwu9CZixg1xOIrJTLUa" version="14.0.1" type="github">
+<mxfile modified="2021-04-25T10:56:55.679Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="q0R6gXHcpZ2y8xf_WXc5" version="14.0.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1149" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,6 +43,9 @@
         <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-12" value="" style="dashed=0;html=1;shape=mxgraph.aws3.permissions;fillColor=#D9A741;gradientColor=none;dashed=0;" vertex="1" parent="nUHHoWJeEu-Wo_ba1Ecn-14">
           <mxGeometry x="19.159999999999997" width="30" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-41" value="Instance A" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instance;fillColor=#F58534;gradientColor=none;" vertex="1" parent="nUHHoWJeEu-Wo_ba1Ecn-14">
+          <mxGeometry x="19.160000000000025" y="54.5" width="30" height="31" as="geometry" />
+        </mxCell>
         <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-16" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="340" y="1170" width="189.16" height="120" as="geometry" />
         </mxCell>
@@ -51,6 +54,9 @@
         </mxCell>
         <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-18" value="" style="dashed=0;html=1;shape=mxgraph.aws3.permissions;fillColor=#D9A741;gradientColor=none;dashed=0;" vertex="1" parent="nUHHoWJeEu-Wo_ba1Ecn-16">
           <mxGeometry x="19.159999999999997" width="30" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-40" value="Instance B" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instance;fillColor=#F58534;gradientColor=none;" vertex="1" parent="nUHHoWJeEu-Wo_ba1Ecn-16">
+          <mxGeometry x="19.16" y="54.5" width="30" height="31" as="geometry" />
         </mxCell>
         <mxCell id="nUHHoWJeEu-Wo_ba1Ecn-19" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="695.09" y="1170" width="189.16" height="120" as="geometry" />
