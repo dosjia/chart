@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T07:38:39.475Z" agent="5.0 (Windows)" etag="o4Qvmy6Ea0wkvNkMlCmu" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T07:45:33.993Z" agent="5.0 (Windows)" etag="HZLtM8IyZCQUGDSNVi1v" version="14.6.6" type="github">
   <diagram id="9IovndKO5Lwux1j9DJRa" name="Page-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -34,16 +34,17 @@
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-16" value="Cluster A1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=17;strokeWidth=4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="940" y="265" width="101" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GJDk6ChRwVHrgXMmXjr3-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=3;exitX=0.8;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-18" target="GJDk6ChRwVHrgXMmXjr3-36">
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-18" target="GJDk6ChRwVHrgXMmXjr3-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="272" y="590" />
-              <mxPoint x="861" y="590" />
+              <mxPoint x="272" y="545" />
+              <mxPoint x="272" y="620" />
+              <mxPoint x="861" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-18" value="&lt;div&gt;app1.clustername.envtype.hccn&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;labelBackgroundColor=none;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="234" y="561.5" width="47.5" height="50" as="geometry" />
+          <mxGeometry x="250" y="495" width="47.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-19" target="GJDk6ChRwVHrgXMmXjr3-20">
           <mxGeometry relative="1" as="geometry" />
@@ -51,14 +52,17 @@
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-19" value="app1.homecreditcfc.cn" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;labelBackgroundColor=none;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="320.25" y="70" width="47.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GJDk6ChRwVHrgXMmXjr3-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-20" target="GJDk6ChRwVHrgXMmXjr3-34">
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-59" target="GJDk6ChRwVHrgXMmXjr3-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="508" y="241" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="530" y="241" />
+              <mxPoint x="530" y="324" />
               <mxPoint x="530" y="541" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=3;" edge="1" parent="1" source="GJDk6ChRwVHrgXMmXjr3-20" target="GJDk6ChRwVHrgXMmXjr3-59">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-20" value="F5" style="strokeColor=#666666;html=1;labelPosition=center;align=center;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.f5.arx_500;labelBackgroundColor=none;fontSize=17;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="260" y="231" width="168" height="20" as="geometry" />
@@ -109,6 +113,12 @@
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-57" value="ELB" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.elasticLoadBalancing;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="844.85" y="320" width="31.3" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-58" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png;fontSize=17;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="41.5" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png;fontSize=17;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="323.25" y="303.5" width="41.5" height="41.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
