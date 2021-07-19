@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T07:56:25.864Z" agent="5.0 (Windows)" etag="buXlun05pJLmV5UQtGQK" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-19T08:00:28.427Z" agent="5.0 (Windows)" etag="SEAmkPki7Q0TrW2NuaEf" version="14.6.6" type="github">
   <diagram id="9IovndKO5Lwux1j9DJRa" name="Page-1">
     <mxGraphModel dx="1091" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-16" value="Cluster A1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=17;strokeWidth=4;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="940" y="265" width="101" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GJDk6ChRwVHrgXMmXjr3-26" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Add rules to on-premise PowerDNS by Devops&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;exitX=0.779;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GJDk6ChRwVHrgXMmXjr3-18" target="GJDk6ChRwVHrgXMmXjr3-34" edge="1">
+        <mxCell id="GJDk6ChRwVHrgXMmXjr3-26" value="&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;Add rules to on-premise PowerDNS&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;exitX=0.779;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GJDk6ChRwVHrgXMmXjr3-18" target="GJDk6ChRwVHrgXMmXjr3-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="613" />
@@ -55,8 +55,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="508" y="241" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="530" y="324" />
-              <mxPoint x="530" y="541" />
+              <mxPoint x="640" y="324" />
+              <mxPoint x="640" y="541" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,7 +99,7 @@
           <mxGeometry x="974.85" y="520" width="31.3" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-53" value="" style="group;labelBorderColor=#000000;rounded=0;strokeColor=#000000;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="160" y="380" width="350" height="79" as="geometry" />
+          <mxGeometry x="230" y="500" width="350" height="79" as="geometry" />
         </mxCell>
         <mxCell id="GJDk6ChRwVHrgXMmXjr3-30" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Rules&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;1. CNAME app1.envtype.hccn vpcname.vpc.hccn&lt;/div&gt;&lt;div&gt;2. A vpcname.vpc.hccn x.x.x.x(cloud nginx IP)&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=11;labelBorderColor=none;whiteSpace=wrap;" parent="GJDk6ChRwVHrgXMmXjr3-53" vertex="1">
           <mxGeometry x="60" width="290" height="79" as="geometry" />
