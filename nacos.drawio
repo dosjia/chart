@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T02:24:15.669Z" agent="5.0 (Windows)" etag="dDqiIu4qtuBd0NuvnF9G" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T02:26:06.765Z" agent="5.0 (Windows)" etag="buTJMHf07BklFCdabjcQ" version="15.6.8" type="github">
   <diagram id="1Op5jghNUw1cPAb3R31E" name="Page-1">
     <mxGraphModel dx="1091" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-2" target="rQATWQKpPZrb8eQxDgEx-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-2" value="nacos-config-spring-boot-autoconfigure.jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-2" value="nacos-discovery-spring-boot-autoconfigure.jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-4" target="rQATWQKpPZrb8eQxDgEx-6">
