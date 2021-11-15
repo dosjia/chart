@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T09:34:55.757Z" agent="5.0 (Windows)" etag="M3PquUJcms9AlpvaULFl" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T09:46:57.220Z" agent="5.0 (Windows)" etag="5HTy8usxL3zs9K3vZ4PC" version="15.6.8" type="github">
   <diagram id="1Op5jghNUw1cPAb3R31E" name="Page-1">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -173,7 +173,7 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-63" value="存成Pair到BlockingQueue中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2081" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-66" value="取出instance信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-65" target="rQATWQKpPZrb8eQxDgEx-63">
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-66" value="取出instance信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-65" target="rQATWQKpPZrb8eQxDgEx-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-65" target="rQATWQKpPZrb8eQxDgEx-69">
@@ -182,10 +182,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-65" value="Notifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="604.38" width="120" height="60" as="geometry" />
+          <mxGeometry x="2325" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-69" value="获取listener信息并回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2325" y="870" width="150" height="60" as="geometry" />
+          <mxGeometry x="2310" y="860" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-70" target="rQATWQKpPZrb8eQxDgEx-72">
           <mxGeometry relative="1" as="geometry" />
@@ -193,8 +193,20 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-70" value="调用taskDispatcher" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1881" y="610" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-72" target="rQATWQKpPZrb8eQxDgEx-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-72" value="addTask进入到不同的进程中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1881" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="2081" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-74" target="rQATWQKpPZrb8eQxDgEx-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-74" value="根据key从DataStore中获取数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2281" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-76" value="请求路径 /ns/distro/datum" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
