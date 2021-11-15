@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T01:06:33.007Z" agent="5.0 (Windows)" etag="uSmqTp0zCMhWHay560Z_" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T02:08:52.798Z" agent="5.0 (Windows)" etag="TXHdChmNBbncYHTes31k" version="15.6.8" type="github">
   <diagram id="1Op5jghNUw1cPAb3R31E" name="Page-1">
     <mxGraphModel dx="1091" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-1" target="rQATWQKpPZrb8eQxDgEx-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-1" value="Starter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-1" value="Client端Starter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-2" target="rQATWQKpPZrb8eQxDgEx-4">
@@ -19,12 +19,6 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-4" target="rQATWQKpPZrb8eQxDgEx-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-4" target="rQATWQKpPZrb8eQxDgEx-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-4" target="rQATWQKpPZrb8eQxDgEx-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-4" value="&lt;div&gt;spring.factory&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -32,16 +26,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-6" value="EnableAutoConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="440" width="180" height="40" as="geometry" />
+          <mxGeometry x="220" y="390" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-8" value="EnvironmentPostProcessor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="225" y="440" width="170" height="40" as="geometry" />
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-12" target="rQATWQKpPZrb8eQxDgEx-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-10" value="ApplicationListener" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="120" height="40" as="geometry" />
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-12" value="配置NacosDiscoveryAutoConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="460" width="210" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-12" value="配置NacosConfigProperties" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="565" width="180" height="45" as="geometry" />
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-14" target="rQATWQKpPZrb8eQxDgEx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-14" value="创建NacosDiscoveryAutoRegister" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="220" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-16" target="rQATWQKpPZrb8eQxDgEx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-16" value="监听WebServerInitializedEvent事件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="260" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-18" value="&lt;h1&gt;注入NamingService&lt;/h1&gt;&lt;p&gt;使用@NacosInjected注入默认的配置，例如使用http或者RPC与服务端通讯。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-16" target="rQATWQKpPZrb8eQxDgEx-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-20" target="rQATWQKpPZrb8eQxDgEx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-20" value="调用namingService的registerInstance方法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="690" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-22" value="请求/instance路径" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-24" value="Server端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="40" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
