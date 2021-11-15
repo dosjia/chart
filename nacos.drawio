@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T02:17:58.030Z" agent="5.0 (Windows)" etag="K9zHq7hJ3J6l57nLHQPd" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T02:24:15.669Z" agent="5.0 (Windows)" etag="dDqiIu4qtuBd0NuvnF9G" version="15.6.8" type="github">
   <diagram id="1Op5jghNUw1cPAb3R31E" name="Page-1">
     <mxGraphModel dx="1091" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -59,10 +59,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-20" value="调用namingService的registerInstance方法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="215" y="860" width="190" height="60" as="geometry" />
+          <mxGeometry x="215" y="1050" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-22" value="请求/instance路径" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="830" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="1050" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-24" value="Server端" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="40" width="120" height="80" as="geometry" />
@@ -76,16 +76,40 @@
         <mxCell id="rQATWQKpPZrb8eQxDgEx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-27" target="rQATWQKpPZrb8eQxDgEx-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-27" target="rQATWQKpPZrb8eQxDgEx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-27" value="将BeatInfo封装为线程，并放入到线程池中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="770" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rQATWQKpPZrb8eQxDgEx-31" value="&lt;h1&gt;使用定期线程池&lt;/h1&gt;&lt;p&gt;在间隔一定时间后运行&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="700" width="240" height="80" as="geometry" />
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-31" value="&lt;h1&gt;使用定期线程池&lt;/h1&gt;&lt;p&gt;在间隔一定时间后运行。封装为BeatTask。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="648.75" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rQATWQKpPZrb8eQxDgEx-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-27" target="rQATWQKpPZrb8eQxDgEx-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="890" as="sourcePoint" />
             <mxPoint x="550" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-33" target="rQATWQKpPZrb8eQxDgEx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-33" target="rQATWQKpPZrb8eQxDgEx-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-33" value="封装为BeatTask（Runnable）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="760" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-35" value="请求/instance/beat" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-37" value="请求失败（由于server端down机后信息消失）重新注册" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQATWQKpPZrb8eQxDgEx-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="rQATWQKpPZrb8eQxDgEx-37" target="rQATWQKpPZrb8eQxDgEx-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="830" as="sourcePoint" />
+            <mxPoint x="720" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
