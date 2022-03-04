@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T08:13:29.038Z" agent="5.0 (Windows)" version="16.6.5" etag="P2i4riBCe8XPs8Pn2ZjG" type="github"><diagram id="J6AY0o4pdsiTPmQ0QGOW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-04T08:33:01.892Z" agent="5.0 (Windows)" etag="4gxgIIX6Qq0PPDT7Es_9" version="16.6.5" type="github">
+  <diagram id="J6AY0o4pdsiTPmQ0QGOW" name="Page-1">
+    <mxGraphModel dx="942" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-1" value="Business System" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="120" y="143" width="490" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="no9JQpDFR6mV1mzQjNH0-2" target="no9JQpDFR6mV1mzQjNH0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="no9JQpDFR6mV1mzQjNH0-7" target="no9JQpDFR6mV1mzQjNH0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-7" value="API" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="no9JQpDFR6mV1mzQjNH0-10" target="no9JQpDFR6mV1mzQjNH0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-10" value="Intecept all API with AccessCheck annotation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-13" value="Collection access check information from annotation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-15" value="Single Sign On System(Access Center)" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="490" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no9JQpDFR6mV1mzQjNH0-16" target="no9JQpDFR6mV1mzQjNH0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-16" value="API" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="no9JQpDFR6mV1mzQjNH0-13" target="no9JQpDFR6mV1mzQjNH0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no9JQpDFR6mV1mzQjNH0-18" value="Check access right based on system, action, resource and user." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
