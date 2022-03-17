@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:31:50.617Z" agent="5.0 (Windows)" etag="_lF5dlk-AVSX3cIvem3P" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:52:04.284Z" agent="5.0 (Windows)" etag="2-gTU7q9xdclGMwcV7c7" version="16.6.5" type="github">
   <diagram id="ggRIh1Yd6XoYF3ta6GQ2" name="Page-1">
     <mxGraphModel dx="942" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry x="100" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3qDB4kIdmbjhgUAovjq-6" value="遍历每一个节点，获取slave pod的信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="169" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3qDB4kIdmbjhgUAovjq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-7" target="_3qDB4kIdmbjhgUAovjq-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -163,30 +163,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-31" value="计算需要分配计算节点的分区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="292" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="271" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-32" target="4fFtL_55b3TJvYWZb8gH-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-32" value="锁定分区" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="377" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="356" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-34" target="4fFtL_55b3TJvYWZb8gH-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-34" value="从unassigned数据中拿出一个计算节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="465" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="444" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-36" target="4fFtL_55b3TJvYWZb8gH-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-36" value="发送请求到计算节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="534" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-38" target="4fFtL_55b3TJvYWZb8gH-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-38" value="计算节点在分区下创建目录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-38" value="计算节点在分区initializing目录下创建数据节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="162" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-41" value="&lt;div&gt;协调节点接收返回结果，释放分区锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -200,8 +200,8 @@
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_3qDB4kIdmbjhgUAovjq-6" target="4fFtL_55b3TJvYWZb8gH-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="350" as="sourcePoint" />
-            <mxPoint x="390" y="90" as="targetPoint" />
+            <mxPoint x="380" y="329" as="sourcePoint" />
+            <mxPoint x="390" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-48" target="4fFtL_55b3TJvYWZb8gH-38">
