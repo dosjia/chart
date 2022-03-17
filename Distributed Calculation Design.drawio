@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T03:01:09.606Z" agent="5.0 (Windows)" etag="0HuGHxYh3chmdwOz1Zs9" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T03:31:50.617Z" agent="5.0 (Windows)" etag="_lF5dlk-AVSX3cIvem3P" version="16.6.5" type="github">
   <diagram id="ggRIh1Yd6XoYF3ta6GQ2" name="Page-1">
     <mxGraphModel dx="942" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,11 +24,6 @@
         <mxCell id="_3qDB4kIdmbjhgUAovjq-5" value="根据节点数量创建partition目录下数据节点（如果不存在）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-6" target="_3qDB4kIdmbjhgUAovjq-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_3qDB4kIdmbjhgUAovjq-6" value="遍历每一个节点，获取slave pod的信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -37,32 +32,6 @@
         </mxCell>
         <mxCell id="_3qDB4kIdmbjhgUAovjq-7" value="获取unassigned目录下节点列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-10" target="_3qDB4kIdmbjhgUAovjq-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-10" value="调用slave pod接口，assign一个partition" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-14" target="_3qDB4kIdmbjhgUAovjq-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-14" target="_3qDB4kIdmbjhgUAovjq-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="476" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-14" value="slave pod在partition下创建/修改对应分区的信息" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="386" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-18" value="master pod通过返回结果与检测partition目录确认分配成功" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="585" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_3qDB4kIdmbjhgUAovjq-20" target="_3qDB4kIdmbjhgUAovjq-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_3qDB4kIdmbjhgUAovjq-20" value="slave pod删除掉unassigned目录下的slave pod信息" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3qDB4kIdmbjhgUAovjq-22" value="&lt;div&gt;监听partition目录下各个数据节点&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
@@ -190,53 +159,62 @@
             <mxPoint x="236.031654938231" y="829.6297359053972" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-30" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="600" y="10" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-31" target="4fFtL_55b3TJvYWZb8gH-32">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-33" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-31" target="4fFtL_55b3TJvYWZb8gH-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-31" value="计算需要分配计算节点的分区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="292" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-32" target="4fFtL_55b3TJvYWZb8gH-34">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-32" target="4fFtL_55b3TJvYWZb8gH-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-32" value="锁定分区" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="377" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-37" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-34" target="4fFtL_55b3TJvYWZb8gH-36">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-34" target="4fFtL_55b3TJvYWZb8gH-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-34" value="从unassigned数据中拿出一个计算节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="465" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-36" target="4fFtL_55b3TJvYWZb8gH-38">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-36" target="4fFtL_55b3TJvYWZb8gH-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-36" value="发送请求到计算节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="326" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="555" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-38" target="4fFtL_55b3TJvYWZb8gH-41">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-38" target="4fFtL_55b3TJvYWZb8gH-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-38" value="计算节点在分区下创建目录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="162" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-41" target="4fFtL_55b3TJvYWZb8gH-43">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-41" value="&lt;div&gt;协调节点接收返回结果，释放分区锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-51" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-43" target="4fFtL_55b3TJvYWZb8gH-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-41" value="释放分区锁" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="4fFtL_55b3TJvYWZb8gH-43" value="初始化完毕，在ready下创建数据节点，删除initializing目录下数据节点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fFtL_55b3TJvYWZb8gH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-30" target="4fFtL_55b3TJvYWZb8gH-31">
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_3qDB4kIdmbjhgUAovjq-6" target="4fFtL_55b3TJvYWZb8gH-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="50" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="sourcePoint" />
             <mxPoint x="390" y="90" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-48" target="4fFtL_55b3TJvYWZb8gH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-48" value="对计算节点创建分布式锁，禁止为这个节点分配别的partition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4fFtL_55b3TJvYWZb8gH-50" target="4fFtL_55b3TJvYWZb8gH-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4fFtL_55b3TJvYWZb8gH-50" value="计算节点释放节点锁" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="325" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
