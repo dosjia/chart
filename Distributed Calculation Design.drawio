@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:27:40.238Z" agent="5.0 (Windows)" etag="RNzEG0jMU5CXx0TMuGSq" version="17.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-31T02:28:03.259Z" agent="5.0 (Windows)" etag="0Y2Qn1DYIVwPPZreNK6l" version="17.2.1" type="github" pages="4">
   <diagram id="ggRIh1Yd6XoYF3ta6GQ2" name="zk-structure">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -676,7 +676,7 @@
           <mxGeometry x="45" y="54" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JZ1ytpCdLpsknunDJoB7-1" vertex="1">
-          <mxGeometry x="45" y="200" width="10" height="570" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-2" value="Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="756" y="20" width="100" height="800" as="geometry" />
@@ -744,7 +744,7 @@
           <mxGeometry x="45" y="180" width="10" height="35" as="geometry" />
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JZ1ytpCdLpsknunDJoB7-3" vertex="1">
-          <mxGeometry x="45" y="240" width="10" height="55" as="geometry" />
+          <mxGeometry x="45" y="240" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="JZ1ytpCdLpsknunDJoB7-3" vertex="1">
           <mxGeometry x="45" y="562" width="10" height="31" as="geometry" />
@@ -780,8 +780,8 @@
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;sourcePerimeterSpacing=0;jumpStyle=line;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="315" as="targetPoint" />
-            <mxPoint x="580" y="315" as="sourcePoint" />
+            <mxPoint x="355" y="320" as="targetPoint" />
+            <mxPoint x="580" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JZ1ytpCdLpsknunDJoB7-31" value="notify" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;sourcePerimeterSpacing=0;jumpStyle=line;" parent="1" source="JZ1ytpCdLpsknunDJoB7-27" target="JZ1ytpCdLpsknunDJoB7-30" edge="1">
